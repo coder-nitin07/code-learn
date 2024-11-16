@@ -235,7 +235,7 @@ header ul li a:hover{
 }
 
 .content .text-content p{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding: 10px 0;
 }
 
@@ -272,7 +272,7 @@ header ul li a:hover{
     }
 
     .content .text-content p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .image-block img{
@@ -295,7 +295,7 @@ footer{
     padding: 40px 0;
     background-color: #4c956c;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .footer{
@@ -353,7 +353,7 @@ footer{
 }
 
 .footer-block .social-icons i{
-    padding: 15px;
+    padding: 10px;
     font-size: 22px;
     cursor: pointer;
     border-radius: 50%;
