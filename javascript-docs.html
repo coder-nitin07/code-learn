@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+     <!-- Header Start -->
+     <header>
+        <div class="container flex menu">
+            <a href="./index.html"><img src="./images/code-logo.webp" alt="logo image" /></a>
+
+            <input type="checkbox" id="check">
+            <label for="check"><i class="fa-solid fa-bars"></i></label>
+
+            <ul class="ul flex">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./html-docs.html">HTML</a></li>
+                <li><a href="./css-docs.html">CSS</a></li>
+                <li><a href="./javascript-docs.html">JS</a></li>
+                <li><a href="./lectures.html">Our Courses</a></li>
+                <li><a href="./signup-login.html">Sign up</a></li>
+            </ul>
+        </div>
+     </header>
+    <!-- Header end -->
+
+
+    <!-- Docs Introducntion start -->
+     <section id="docs-intro" class="container">
+
+        <!-- JS intro div start -->
+        <div class="content">
+            <h1 id="main-heading">JavaScript Tutorial</h1>
+            
+            <div class="text-content">
+                <p>At Code Learn, we’re dedicated to helping aspiring coders master JavaScript, from beginner to pro. Our user-friendly tutorials, practical exercises, and expert guidance will help you build a strong foundation in web development. Start learning today and unlock the world of coding with us!</p>
+            </div>
+
+            <div class="image-block">
+                <img src="./images/JS.png" alt="html docs image">
+            </div>
+        </div>
+        <!-- JS intro div end -->
+
+
+        <!-- JS variables div start -->
+        <div class="content">
+            <h2 class="sub-heading">JavaScript Variables</h2>
+            
+            <div class="text-content">
+                <p>
+                    In JavaScript, a variable is a container used to store data that can be referenced and manipulated in a program. Variables are declared using var, let, or const.
+                    
+                    <ol class="list-data">
+                        <li>var: Older syntax, function-scoped, and can be redeclared.</li>
+                        <li>let: Block-scoped, introduced in ES6, and can be reassigned</li>
+                        <li>const: Block-scoped, introduced in ES6, and cannot be reassigned after initialization</li>
+                    </ol>
+                </p>
+            </div>
+            
+            <div class="image-block">
+                <a href=""><img src="./images/js_variables.png" alt="JS Variables"></a>
+            </div>
+        </div>
+        <!-- JS variables div end -->
+
+     </section>
+     <!-- Docs Introduction end -->
+
+
+     <!-- HTML Heading and Div DOCS start -->
+      <section id="docs" class="container">
+
+        <!-- JS Operators div start -->
+        <div class="content">
+            <h2 class="sub-heading">Javascript Operators</h2>
+            
+            <div class="text-content">
+                <p>
+                    JavaScript operators perform operations on variables and values. They are classified into several types:
+                    
+                    <ol class="list-data">
+                        <li>Arithmetic operators: Perform mathematical operations (e.g., +, -, *, /, %).</li>
+                        <li>Assignment operators: Assign values to variables (e.g., =, +=, -=, *=, /=).</li>
+                        <li>Comparison operators: Compare values and return a boolean (e.g., ==, ===, !=, >, <, >=, <=).</li>
+                        <li>Logical operators: Combine boolean values (e.g., &&, ||, !).</li>
+                        <li>Conditional (ternary) operator: Shortened if-else statement (condition ? true : false).</li>
+                        <li>Bitwise operators: Operate on binary representations (e.g., &, |, ^, <<).</li>
+                        <li>Type operators: Check types (e.g., typeof, instanceof).</li>
+                    </ol>
+                </p>
+            </div>
+            
+            <div class="image-block">
+                <img src="./images/js_operators.png" alt="JS Operator">
+            </div>
+        </div>
+        <!-- JS Operators div end -->
+
+
+        <!-- JS functions div start -->
+        <div class="content">
+            <h2 class="sub-heading">JavaScript Functions</h2>
+            
+            <div class="text-content">
+                <p>
+                    In JavaScript, a function is a block of reusable code designed to perform a specific task. Functions can accept parameters, execute logic, and return values. They are defined using the function keyword or with arrow function syntax (ES6+). Functions can be declared globally or locally, and can be invoked by their name. Functions help organize code, improve reusability, and make complex tasks more manageable. They can also be passed as arguments to other functions or returned from functions themselves. JavaScript functions support parameters, return values, and allow both synchronous and asynchronous execution.
+                </p>
+            </div>
+            
+            <div class="image-block">
+                <img src="./images/js_functions.webp" alt="JS Functions">
+            </div>
+        </div>
+        <!-- JS functions div end -->
+
+      </section>
+     <!-- HTML Heading and Div DOCS end -->
+
+
+     <!-- Footer section start -->
+     <footer>
+        <div class="container flex footer">
+            <div class="footer-block">
+                <img src="./images/code-logo.webp" alt="logo image">
+
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+
+                    <p><i class="fa-solid fa-phone"></i>  <span>+91 1234 5678 90</span></p>
+                    <p><i class="fa-solid fa-envelope"></i>  <span><a href="malito:codelearn@example.com">codelearn@example.com</a></span></p>
+                    <p><i class="fa-solid fa-location-dot"></i>  <span>D-1, Connaught place, Delhi</span></p>
+                </div>
+            </div>
+
+            <div class="footer-block">
+                <h3>Contact Form</h3>
+
+                <form>
+                    <label for="useranme">Full Name :</label>
+                    <input type="text" id="useranme" required />
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" required />
+
+                    <label for="message">Message :</label>
+                    <input type="text" id="message" required />
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="footer-block">
+                <h3>You can follow us:</h3>
+
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- Footer section end -->
+</body>
+</html>

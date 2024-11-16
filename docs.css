@@ -1,0 +1,226 @@
+
+/* ================= Doc pages intro css start ==================================== */
+#docs-intro{
+    position: relative;
+    z-index: -5;
+}
+
+.content{
+    padding: 30px 0;
+}
+
+/* slide up animation code start */
+#main-heading{
+    animation: slide-up 1s linear;
+}
+
+@keyframes slide-up {
+    0%{
+        transform: translateY(-200px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+/* slide up animation code end */
+
+
+
+/* slide left animation code start */
+.text-content, .sub-heading{
+    animation: slide-left 1s linear;
+}
+
+@keyframes slide-left {
+    0%{
+        transform: translateX(-200px);
+    }
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+/* slide left animation code end */
+
+
+
+
+
+/* slide right animation code start */
+.image-block{
+    animation: slide-right 1s linear;
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(200px);
+    }
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+/* slide right animation code end */
+
+
+/* ========== Doc pages intro css end ======================= */
+
+
+/* ============================================================================================ */
+
+
+/* ===== signup-login page css code start ================== */
+.user-details{
+    margin: 80px auto;
+    background-color: #e4d7b9;
+    color: #000;
+    border-radius: 12px;
+    padding: 12px;
+    height: 570px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-details .btn{
+    padding: 15px 25px;
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.user-details .btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.box .signup{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box input[type = "radio"]{
+    display: none;
+}
+
+.box label{
+    display: block;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.box input{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.login{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+#check-2:checked ~ .signup{
+    display: none;
+}
+
+#check-2:checked ~ .login{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .boox{
+        width: 65%;
+    }
+}
+/* ===== signup-login page css code end ================== */
+
+
+/* ============================================================================================ */
+
+
+/* ====  Lectures page css code start ====================*/
+.course-content{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    padding: 20px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.parallex{
+    background: url('./images/html5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.parallex-2{
+    background: url('./images/css.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% center;
+    height: 80vh;
+    width: 100%;
+}
+
+.parallex-3{
+    background: url('./images/JS.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 100%;
+    height: 80vh;
+    width: 100%;
+}
+
+.course-details {
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.course-details h2{
+    padding: 10px 0;
+}
+
+.course-details img{
+    box-shadow:  0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+    .course-details img{
+        width: 100%;
+    }
+} 
+/* ====  Lectures page css code end ====================*/
